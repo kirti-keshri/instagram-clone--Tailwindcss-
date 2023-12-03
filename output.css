@@ -650,8 +650,16 @@ video {
   margin-right: 200px;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-2 {
@@ -660,6 +668,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-8 {
@@ -674,16 +686,32 @@ video {
   margin-top: 40px;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
+.mt-\[15\] {
+  margin-top: 15;
 }
 
-.mt-12 {
-  margin-top: 3rem;
+.mt-\[5px\] {
+  margin-top: 5px;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mt-\[1000px\] {
+  margin-top: 1000px;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mt-\[8\%\] {
+  margin-top: 8%;
+}
+
+.mt-\[2\%\] {
+  margin-top: 2%;
 }
 
 .block {
@@ -696,6 +724,10 @@ video {
 
 .table {
   display: table;
+}
+
+.grid {
+  display: grid;
 }
 
 .contents {
@@ -738,6 +770,10 @@ video {
   height: 8rem;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -774,8 +810,12 @@ video {
   height: 100vh;
 }
 
-.h-48 {
-  height: 12rem;
+.h-\[\] {
+  height: ;
+}
+
+.h-\[80px\] {
+  height: 80px;
 }
 
 .w-1 {
@@ -818,6 +858,10 @@ video {
   width: 6rem;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -828,6 +872,10 @@ video {
 
 .w-4\/5 {
   width: 80%;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-5 {
@@ -862,14 +910,6 @@ video {
   width: 100%;
 }
 
-.w-48 {
-  width: 12rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -884,6 +924,10 @@ video {
 
 .resize {
   resize: both;
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1033,20 +1077,8 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
-.border-white\/\[0\.1\] {
-  border-color: rgb(255 255 255 / 0.1);
-}
-
 .border-white\/\[0\.2\] {
   border-color: rgb(255 255 255 / 0.2);
-}
-
-.border-white\/\[0\.\] {
-  border-color: rgb(255 255 255 / 0.);
-}
-
-.border-white\/\[0\.3\] {
-  border-color: rgb(255 255 255 / 0.3);
 }
 
 .border-white\/\[0\.5\] {
@@ -1073,20 +1105,8 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-white\/\[0\.1\] {
-  background-color: rgb(255 255 255 / 0.1);
-}
-
 .bg-white\/\[0\.2\] {
   background-color: rgb(255 255 255 / 0.2);
-}
-
-.bg-white\/\[0\.4\] {
-  background-color: rgb(255 255 255 / 0.4);
-}
-
-.bg-white\/\[0\.3\] {
-  background-color: rgb(255 255 255 / 0.3);
 }
 
 .bg-\[url\(\'\.\.\/img\/profile\.k\.jpg\'\)\] {
@@ -1236,13 +1256,13 @@ video {
   line-height: 1;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -1251,9 +1271,9 @@ video {
   line-height: 1.25rem;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-black {
@@ -1308,14 +1328,6 @@ video {
 
 .text-white\/\[0\.9\] {
   color: rgb(255 255 255 / 0.9);
-}
-
-.text-white\/\[\] {
-  color: rgb(255 255 255 / );
-}
-
-.text-white\/\[0\.\] {
-  color: rgb(255 255 255 / 0.);
 }
 
 .underline {
