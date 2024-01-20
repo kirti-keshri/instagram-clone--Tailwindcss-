@@ -12,7 +12,7 @@
 <body class="bg-black">
     <div class="flex flex-1 ">
         <!-- Left part -->
-        <div class="w-1/5 fixed h-full bg-black text-white border border-r-2 border-white/[0.2]">
+        <div id="leftNavbar" class="w-1/5 fixed h-full bg-black text-white border border-r-2 border-white/[0.2]">
             <div class="flex flex-col text-md py-8 pl-5 gap-8">
                 <div class="flex ">
                     <span><svg aria-label="Instagram" class="_ab6- ml-4" color="rgb(245, 245, 245)"
@@ -173,6 +173,12 @@
         </div>
 
     </div>
+    <script>
+        fetch('leftside.html')
+            .then(response => response.text())
+            .then(content => {
+                document.getElementById('leftNavbar').innerHTML = content;
+            });
+    </script>
 </body>
-
 </html>
